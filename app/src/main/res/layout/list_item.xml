@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/actividadLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8pt"
+        android:text="@string/actividadLabel" />
+    <TextView
+        android:id="@+id/duracionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/actividadLabel"
+        android:paddingLeft="4pt"
+        android:text="@string/duracionLabel" />
+    <TextView
+        android:id="@+id/horasLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8pt"
+        android:layout_below="@id/actividadLabel"
+        android:text="19:25 - 20:35" />
+
+</RelativeLayout>

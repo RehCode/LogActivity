@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Log Activity</string>
+    <string name="saveLog">Log</string>
+    <string name="hintActividad">Actividad</string>
+    <string name="actividadLabel">Caminar</string>
+    <string name="duracionLabel">25min</string>
+</resources>
